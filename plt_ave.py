@@ -41,8 +41,8 @@ def plt_ave(path, region):
     plt.close()
 
 
-if __name__=='__main__'
-path = './clouds/'
-clouds = os.listdir(path)
-for cld in clouds:
-    plt_ave(path, cld)
+if __name__=='__main__':
+    path = './clouds/'
+    clouds = os.listdir(path)
+    for cld in clouds:
+        plt_ave(path, cld)
